@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+}
+.cabeçalho{
+    color: blueviolet;
+    padding: 12%;
+    text-align: inherit;
+    border: solid;
+    border-radius: 5%;
+    border-width: 6px;
+}
+.container{
+    border: solid;
+    border-radius: 2%;
+    border-width: 2px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3%;
+    color: rgb(0, 0, 0);
+    font-size:medium;
+    display: flex;
+}
+.pontos{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titulo{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    
+}
+.menu{
+    color: blueviolet;
+    display: flex;
+    border: solid;
+    border-color: blueviolet;
+    justify-content: space-around;
+}
+.icones{
+    font-size: x-large;
+    text-align: inherit;
+}
+img{
+    border-radius: 70%;
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+}
